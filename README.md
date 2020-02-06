@@ -38,6 +38,14 @@ chromosight detect <contact_maps> [<output>] [--kernels=None] [--loops]
                        [--output]
 ```
 
+Put an example command line like :
+```
+chromosight detect --threads 4 data_test/example.cool outdir
+```
+#### --threads 4 correspond to ....
+#### data_test/example.cool correspond to Input
+#### outdir correspond to Output
+
 ## Input
 
 Input Hi-C contact maps can be either in bedgraph2d or cool format. Bedgraph2d is defined as a tab-separated text file with 7 columns: chr1 start1 end1 chr2 start2 end2 contacts. The cool format is an efficient and compact format for Hi-C data based on HDF5. It is maintained by the Mirny lab and documented here: https://mirnylab.github.io/cooler/
